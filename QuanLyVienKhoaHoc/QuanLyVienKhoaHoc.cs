@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using QuanLyVienKhoaHoc.Enties;
 
 namespace QuanLyVienKhoaHoc
 {
@@ -14,6 +15,8 @@ namespace QuanLyVienKhoaHoc
         public void NhapDanhSach()
         {
             int soLuongNhanVien;
+            int loaiNhanVien;
+            NhanVien NhanVien;
             //nhapsoluong
             Console.Write("Nhap so luong nhan vien: ");
             soLuongNhanVien = int.Parse(Console.ReadLine());
@@ -25,7 +28,14 @@ namespace QuanLyVienKhoaHoc
                 Console.WriteLine("\t\t\t1.Nha quan ly  ");
                 Console.WriteLine("\t\t\t2.khoa hoc  ");
                 Console.WriteLine("\t\t\t3.nhan vien phong thi nghiem   ");
-                Console.Write("\t\t")
+                Console.Write("\t\tChon :");
+                //lay gia tri chon lua 
+                loaiNhanVien = int.Parse(Console.ReadLine());
+                //xac dinh laoi nhan vien 
+                switch (loaiNhanVien)
+                {
+                    default;
+                }
             }
         }
     }
